@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+.env
+.venv
+.venv*
+.venv_gpu/
+env/
+venv/
+ENV/
+.pytest_cache/
+*.log
+
+# Data and Model weights (Do not track large datasets and weights)
+*.pt
+*.onnx
+*.engine
+weights/
+models/**/*.pt
+models/**/*.onnx
+models/**/*.engine
+training/datasets/weapons/train/images/*
+training/datasets/weapons/train/labels/*
+training/datasets/weapons/val/images/*
+training/datasets/weapons/val/labels/*
+training/datasets/weapons/test/images/*
+training/datasets/weapons/test/labels/*
+training/runs/
+data/uploads/*
+data/videos/*
+data/detections/*
+data/exports/*
+*.db
+*.sqlite3
+
+# Keep .gitkeep files in data and models directories
+!.gitkeep
+
+# Node / React
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+.DS_Store
+Thumbs.db

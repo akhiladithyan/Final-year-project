@@ -1,0 +1,14 @@
+path: D:/Akhil - college/Final year project/training/datasets/weapons
+train: train/images
+val: val/images
+test: test/images
+
+nc: 7
+names: ['Celurit', 'Golok', 'Kapak', 'Pedang', 'Pisau', 'Pistol', 'Senapan']
+
+roboflow:
+  workspace: deteksi-senjata
+  project: weapon-detection-smvsm
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/deteksi-senjata/weapon-detection-smvsm/dataset/7
